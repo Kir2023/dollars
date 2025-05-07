@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif;
+  padding: 40px;
+  background: #f7f7f7;
+  text-align: center;
+}
+
+input {
+  font-size: 18px;
+  padding: 8px;
+  width: 250px;
+}
+
+button {
+  font-size: 18px;
+  padding: 8px 16px;
+  margin-left: 10px;
+}
+
+#output {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #333;
+  background: #fff;
+  padding: 15px;
+  border: 1px solid #ccc;
+  max-width: 600px;
+  margin-inline: auto;
+}

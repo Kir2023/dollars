@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dollar Converter</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>Dollar Converter</h1>
+
+    <input
+      type="number"
+      id="amount"
+      step="0.01"
+      min="0"
+      max="1000000000"
+      placeholder="Enter amount (e.g. 123.45)"
+    />
+    <button onclick="convert()">Convert</button>
+    <button onclick="resetFields()">Reset</button>
+
+    <div id="output"></div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
